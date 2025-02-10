@@ -1,0 +1,11 @@
+.user{
+
+    width: 250px;
+    height: 250px;
+   background-color: lightskyblue;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
