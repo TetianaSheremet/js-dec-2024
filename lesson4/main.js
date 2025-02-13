@@ -197,9 +197,10 @@ function exchange(sumUAH,currencyValues,exchangeCurrency){
     for(let currencyObj of currencyValues){
         if(currencyObj.currency===exchangeCurrency){
              finalSum=sumUAH/currencyObj.value
+            return finalSum
         }
     }
-    return finalSum
+    return 0
 }
 
 
