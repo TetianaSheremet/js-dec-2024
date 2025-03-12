@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    let sessions = JSON.parse(localStorage.getItem('currentDate'));
+
+    for (let session of sessions) {
+
+
+        let sessionsDiv= document.createElement('div');
+        sessionsDiv.innerText = session.toString();
+        document.body.appendChild(sessionsDiv)
+
+    }
+
+</script>
+</body>
+</html>
