@@ -150,7 +150,7 @@ function addToLocalStorage(arrayName,objToAdd){
 
     let neededArray= JSON.parse(localStorage.getItem(arrayName))||[];
 
-    neededArray.push(objToAdd);
+    neededArray.push(objToAdd );
 
     localStorage.setItem(`${arrayName}`,JSON.stringify(neededArray))
 
